@@ -17,8 +17,6 @@ services:
     image:
       # Pulls the n8n image tagged as latest from Docker Hub
       url: docker.io/n8nio/n8n:latest
-startCommand: n8n start --port 10000 --host 0.0.0.0
-
     # All environment variables defined below are required!
     #
     # You can define additional environment variables as needed.
